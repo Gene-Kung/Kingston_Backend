@@ -1,0 +1,117 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="API\CrawlerErrorLog\**" />
+    <Compile Remove="API\EnvCategory\**" />
+    <Compile Remove="API\Env\**" />
+    <Compile Remove="API\Home\**" />
+    <Compile Remove="API\Login\**" />
+    <Compile Remove="API\Member\**" />
+    <Compile Remove="API\Newebpay\**" />
+    <Compile Remove="API\PriceGov\**" />
+    <Compile Remove="API\Register\**" />
+    <Compile Remove="API\Report\**" />
+    <Compile Remove="API\SellingItem\**" />
+    <Compile Remove="API\ServiceToken\**" />
+    <Compile Remove="API\TempEnv\**" />
+    <Compile Remove="API\TGos\**" />
+    <Compile Remove="Attributes\Report\**" />
+    <Compile Remove="Attribute\**" />
+    <Compile Remove="DB\Query\**" />
+    <Compile Remove="GoogleMap\**" />
+    <Compile Remove="OAuth\**" />
+    <Compile Remove="Service\**" />
+    <Compile Remove="ThirdPartyAPI\**" />
+    <EmbeddedResource Remove="API\CrawlerErrorLog\**" />
+    <EmbeddedResource Remove="API\EnvCategory\**" />
+    <EmbeddedResource Remove="API\Env\**" />
+    <EmbeddedResource Remove="API\Home\**" />
+    <EmbeddedResource Remove="API\Login\**" />
+    <EmbeddedResource Remove="API\Member\**" />
+    <EmbeddedResource Remove="API\Newebpay\**" />
+    <EmbeddedResource Remove="API\PriceGov\**" />
+    <EmbeddedResource Remove="API\Register\**" />
+    <EmbeddedResource Remove="API\Report\**" />
+    <EmbeddedResource Remove="API\SellingItem\**" />
+    <EmbeddedResource Remove="API\ServiceToken\**" />
+    <EmbeddedResource Remove="API\TempEnv\**" />
+    <EmbeddedResource Remove="API\TGos\**" />
+    <EmbeddedResource Remove="Attributes\Report\**" />
+    <EmbeddedResource Remove="Attribute\**" />
+    <EmbeddedResource Remove="DB\Query\**" />
+    <EmbeddedResource Remove="GoogleMap\**" />
+    <EmbeddedResource Remove="OAuth\**" />
+    <EmbeddedResource Remove="Service\**" />
+    <EmbeddedResource Remove="ThirdPartyAPI\**" />
+    <None Remove="API\CrawlerErrorLog\**" />
+    <None Remove="API\EnvCategory\**" />
+    <None Remove="API\Env\**" />
+    <None Remove="API\Home\**" />
+    <None Remove="API\Login\**" />
+    <None Remove="API\Member\**" />
+    <None Remove="API\Newebpay\**" />
+    <None Remove="API\PriceGov\**" />
+    <None Remove="API\Register\**" />
+    <None Remove="API\Report\**" />
+    <None Remove="API\SellingItem\**" />
+    <None Remove="API\ServiceToken\**" />
+    <None Remove="API\TempEnv\**" />
+    <None Remove="API\TGos\**" />
+    <None Remove="Attributes\Report\**" />
+    <None Remove="Attribute\**" />
+    <None Remove="DB\Query\**" />
+    <None Remove="GoogleMap\**" />
+    <None Remove="OAuth\**" />
+    <None Remove="Service\**" />
+    <None Remove="ThirdPartyAPI\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="API\GetLoginUrlDto.cs" />
+    <Compile Remove="API\GoogleMapModel.cs" />
+    <Compile Remove="API\TestModel.cs" />
+    <Compile Remove="API\TokensResponseDto.cs" />
+    <Compile Remove="AppSettings.Service.cs" />
+    <Compile Remove="Attributes\Home\QueryHomeAttribute.cs" />
+    <Compile Remove="Attributes\ValidateModelAttribute.cs" />
+    <Compile Remove="DB\CrawlerErrorLogModel.cs" />
+    <Compile Remove="DB\EnvCategoryModel.cs" />
+    <Compile Remove="DB\EnvModel.cs" />
+    <Compile Remove="DB\FunctionModel.cs" />
+    <Compile Remove="DB\MemberModel.cs" />
+    <Compile Remove="DB\MemberRoleMappingModel.cs" />
+    <Compile Remove="DB\NewebpayLogModel.cs" />
+    <Compile Remove="DB\OrderLogModel.cs" />
+    <Compile Remove="DB\PlaceModel.cs" />
+    <Compile Remove="DB\PriceGovModel.cs" />
+    <Compile Remove="DB\ReportModel.cs" />
+    <Compile Remove="DB\RoleFunctionMappingModel.cs" />
+    <Compile Remove="DB\RoleModel.cs" />
+    <Compile Remove="DB\SellingItemModel.cs" />
+    <Compile Remove="DB\TempEnvironmentModel.cs" />
+    <Compile Remove="DB\TempEnvModel.cs" />
+    <Compile Remove="DB\TestModel.cs" />
+    <Compile Remove="DB\ValidEmailModel.cs" />
+    <Compile Remove="ProjectSetting.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.143" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.22" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="3.1.22" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Npgsql" Version="8.0.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="7.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Attributes\Home\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="CrawlerErrorLogService.cs" />
+    <Compile Remove="EnvCategoryService.cs" />
+    <Compile Remove="EnvService.cs" />
+    <Compile Remove="GoogleMapService.cs" />
+    <Compile Remove="HomeService.cs" />
+    <Compile Remove="JobService.cs" />
+    <Compile Remove="LoginService.cs" />
+    <Compile Remove="MailService.cs" />
+    <Compile Remove="MemberService.cs" />
+    <Compile Remove="NewebpayService.cs" />
+    <Compile Remove="PlaceService.cs" />
+    <Compile Remove="PriceGovService.cs" />
+    <Compile Remove="RegisterService.cs" />
+    <Compile Remove="ReportService.cs" />
+    <Compile Remove="SellingItemService.cs" />
+    <Compile Remove="ServiceTokenService.cs" />
+    <Compile Remove="TempEnvService.cs" />
+    <Compile Remove="TestService.cs" />
+    <Compile Remove="TGosService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebPages" Version="3.3.0" />
+    <PackageReference Include="NLog" Version="5.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\House.CBL\House.CBL.csproj" />
+    <ProjectReference Include="..\House.DBL\House.DAL.csproj" />
+    <ProjectReference Include="..\House.Model\House.Model.csproj" />
+  </ItemGroup>
+
+</Project>
